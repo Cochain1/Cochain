@@ -1,0 +1,22 @@
+database:
+  uri: ""
+  username: ""
+  password: ""
+
+paths:
+  eval_data: "./data/eval_data.json"
+  tree_data: "./data/tree_data.json"
+  kg_output: "./data/kg_output_results.json"
+  output_file: "./output/output.json"
+  model_path: "./model"
+  category_map_path: "./data/causal_category_map.json"
+  tmp_dir: "./tmp"
+  custom_dict_path: "./data/custom_dict.txt"
+
+logging:
+  level: "INFO"
+
+parameters:
+  top_n_nodes: 3  
+  max_causal_chains: 2  
+  max_merged_paths: 3  
